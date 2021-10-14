@@ -1,0 +1,33 @@
+.widget__top{
+    box-shadow: 0px 5px 10px grey;
+    padding: 10px;
+    color: #333;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 13px;
+}
+.widget__option li{
+    cursor: pointer;
+    padding: 0px 5px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+
+}
+.widget__option li:hover{
+    background: #F3F2EF;
+    color: #222
+}
+.widget__option h4{
+    font-size: 16px;
+}
+.widget__option p{
+    font-size: 10px;
+}
+.widget__option{
+    list-style: circle;
+}
+
+
+/* npm install -g firebase-tools */
+/* firebase login */
+/* firebase deploy */

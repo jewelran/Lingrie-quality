@@ -1,0 +1,21 @@
+.feed__input img{
+    width: 50px;
+    height: 50px;
+}
+input:focus{
+    outline:none
+}
+
+.option .icon{
+   padding: 7px 12px;
+   border-radius: 6px;
+   transition: all 0.3s ease;
+}
+.option span:hover{
+    cursor: pointer;
+    background-color: #EBEBEB;
+}
+.feed__input input[type="submit"]{
+    display:none;
+}
+
