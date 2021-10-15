@@ -6,7 +6,7 @@ function Widget() {
         <div className="widget">
             <div className="widget__top">
                 <div className="widget__header d-flex justify-content-between">
-                    <h4>LinkIn news</h4>
+                    <h4>Lingerie Quality</h4>
                     <FaInfo/>
                 </div>
                 <div className="widget__body">

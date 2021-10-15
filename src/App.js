@@ -12,6 +12,9 @@ import Login from './Components/Login/Login';
 import { useState } from 'react';
 import Notification from './Components/Notification/Notification';
 import DefectsAnalysis from './Components/DefectsAnalysis/DefectsAnalysis';
+import QualityTeams from './Components/Teams/QualityTeams/QualityTeams';
+import Productions from './Components/Teams/Production/Productions';
+import Management from './Components/Teams/Management/Management';
 export const userContext = createContext();
 function App() {
   const [loggedInUser, setLoggedInUser] = useState({})
@@ -34,6 +37,16 @@ function App() {
          <Route path= "/defectAnalysis">
            <DefectsAnalysis></DefectsAnalysis>
          </Route>
+         <Route path ="/department/management">
+           <Management></Management>
+         </Route>
+         <Route path ="/department/quality">
+           <QualityTeams></QualityTeams>
+         </Route>
+         <Route path ="/department/production">
+           <Productions></Productions>
+         </Route>
+        
         </Switch>
       </Router>
     </userContext.Provider>

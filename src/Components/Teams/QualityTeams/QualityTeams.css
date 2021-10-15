@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainWrap,
+.menu,
+.menu > Link {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mainWrap {
+  padding-top: 5rem;
+}
+.menu {
+  border-radius: 100%;
+  position: absolute;
+  line-height: 10px
+}
+.menu > Link {
+  position: absolute;
+}
+
+.wrapper {
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 600px;
+  height: 600px;
+  border: 2px dotted red;
+  border-radius: 50%;
+}
+.wrapper::before {
+  content: "";
+  position: absolute;
+  top: 191px;
+  left: 71px;
+  right: 70px;
+  bottom: 59px;
+  background-image: url(https://www.nicereply.com/blog/wp-content/uploads/2019/04/Importance-of-Customer-Satisfaction-Header.svg);
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+.textArea {
+  color: #dc2808;
+  position: absolute;
+  font-weight: 900;
+  top: 21px;
+  text-shadow: 3px 3px 5px black;
+  margin-left: 15rem;
+  margin-top: 6rem;
+}
+.textArea h1 {
+  letter-spacing: 3px;
+  font-size: bold;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+.menu Link{
+  text-decoration: none !important;
+}
+
+
+
+.menu1 {
+  margin-top: -40rem;
+  border-radius: 100%;
+  position: absolute;
+  width: 80px;
+  background:palegreen;
+  height: 80px;
+  background-size: cover;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+   */
+   transition: all 0.3s ease;
+}
+.menu2 {
+  margin-top: -26rem;
+  margin-left: 29rem;
+  border-radius: 100%;
+  position: absolute;
+  width: 80px;
+  background:palegreen;
+  
+  height: 80px;
+  background-size: cover;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+   */
+   transition: all 0.3s ease;
+}
+.menu3 {
+  margin-top: 0rem;
+  margin-left: 39rem;
+  border-radius: 100%;
+  position: absolute;
+    width: 80px;
+  background:palegreen;
+  height: 80px;
+  background-size: cover;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+   */
+   transition: all 0.3s ease;
+}
+.menu4 {
+  margin-top: 26rem;
+  margin-left: 30rem;
+  border-radius: 100%;
+  position: absolute;
+    width: 80px;
+  background:palegreen;
+  height: 80px;
+  background-size: cover;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+   */
+   transition: all 0.3s ease;
+}
+.menu5 {
+  margin-top: 39rem;
+  margin-left: 0rem;
+  border-radius: 100%;
+  position: absolute;
+    width: 80px;
+  background:palegreen;
+  height: 80px;
+  background-size: cover;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+   */
+   transition: all 0.3s ease;
+}
+.menu6 {
+  margin-top: 26rem;
+  margin-left: -30rem;
+  border-radius: 100%;
+  position: absolute;
+    width: 80px;
+  background:palegreen;
+  height: 80px;
+  background-size: cover;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+   */
+   transition: all 0.3s ease;
+}
+.menu7 {
+  margin-top: 0rem;
+  margin-left: -39rem;
+  border-radius: 100%;
+  position: absolute;
+    width: 80px;
+  background:palegreen;
+  height: 80px;
+  background-size: cover;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+   */
+   transition: all 0.3s ease;
+}
+.menu8 {
+  margin-top: -28rem;
+  margin-left: -29rem;
+  border-radius: 100%;
+  position: absolute;
+    width: 80px;
+  background:palegreen;
+  height: 80px;
+  background-size: cover;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+   */
+   transition: all 0.3s ease;
+}
+Link{
+    text-decoration:none !important;
+}
+.menu1:hover,
+.menu2:hover,
+.menu3:hover,
+.menu4:hover,
+.menu5:hover,
+.menu6:hover,
+.menu7:hover,
+.menu8:hover {
+    box-shadow: 0px 0px 15px grey;
+    color:#dc2808
+}

@@ -59,16 +59,19 @@ function TopNavBar() {
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             
-             <Link  style ={{color: "gray", textDecoration: "none", padding: "3px 0px" , textAlign:"center"}} to = "/home"><li style={{background: "#F8F9FA", marginBottom:"6px"}}>Quality teem</li></Link>
+          <Link  style ={{color: "gray", textDecoration: "none", padding: "3px 0px" , textAlign:"center"}} to = "/department/Management"><li style={{background: "#F8F9FA", marginBottom:"6px"}}>Management teem</li></Link>
+
+
+             <Link to = "/department/quality"  style ={{color: "gray", textDecoration: "none", padding: "3px 0px" , textAlign:"center"}} ><li style={{background: "#F8F9FA", marginBottom:"6px"}}>Quality teem</li></Link>
 
             
-             <Link  style ={{color: "gray", textDecoration: "none", padding: "3px 0px" , textAlign:"center"}} to = "/home"><li style={{background: "#F8F9FA", marginBottom:"6px"}}>Production teem</li></Link>
+             <Link  style ={{color: "gray", textDecoration: "none", padding: "3px 0px" , textAlign:"center"}} to = "/department/production"><li style={{background: "#F8F9FA", marginBottom:"6px"}}>Production teem</li></Link>
 
             
-             <Link  style ={{color: "gray", textDecoration: "none", padding: "3px 0px" , textAlign:"center"}} to = "/home"><li style={{background: "#F8F9FA", marginBottom:"6px"}}>Swing operator</li></Link>
+             <Link  style ={{color: "gray", textDecoration: "none", padding: "3px 0px" , textAlign:"center"}} to = "/department/sewing_operator"><li style={{background: "#F8F9FA", marginBottom:"6px"}}>Swing operator</li></Link>
 
             
-             <Link  style ={{color: "gray", textDecoration: "none", padding: "3px 0px" , textAlign:"center"}} to = "/home"><li style={{background: "#F8F9FA", marginBottom:"6px"}}>Management teem</li></Link>
+           
 
             
           </ul>
