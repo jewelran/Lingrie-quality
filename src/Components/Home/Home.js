@@ -43,8 +43,6 @@ useEffect(() => {
         <Login />
       ) : (
         <div className="">
-    <TopNavBar></TopNavBar>
-
           <div className="app__body">
             <div className="feed__container">
               <Sidebar></Sidebar>
@@ -52,13 +50,13 @@ useEffect(() => {
             <div className="feed__container__center">
               <Feed></Feed>
             </div>
-
             <div className="feed__container">
               <Widget></Widget>
             </div>
           </div>
         </div>
       )}
+      
     </div>
   );
 }

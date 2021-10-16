@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 function Sidebar() {
   
     const user = useSelector(selectUser)
-   
+   console.log(user);
     return (
         <div  className= "sidebar">
             <div className="sidebar__profile">

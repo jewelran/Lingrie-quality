@@ -5,9 +5,7 @@ import "./QualityTeams.css";
 function QualityTeams() {
   return (
     <div className="container">
-      <div className="col-md-12">
-        <TopNavBar></TopNavBar>
-      </div>
+     
       <div className="mainWrap">
         <div className="wrapper">
           <div className="textArea">

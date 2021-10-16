@@ -15,18 +15,22 @@ import DefectsAnalysis from './Components/DefectsAnalysis/DefectsAnalysis';
 import QualityTeams from './Components/Teams/QualityTeams/QualityTeams';
 import Productions from './Components/Teams/Production/Productions';
 import Management from './Components/Teams/Management/Management';
+import TopNavBar from './Components/Header/TopNavBar';
 export const userContext = createContext();
 function App() {
   const [loggedInUser, setLoggedInUser] = useState({})
   return (
     <userContext.Provider value = {[loggedInUser, setLoggedInUser]}>
       <Router>
+       <div className="container">
+       <TopNavBar></TopNavBar>
+       </div>
         <Switch>
           <Route path= "/login">
           <Login/>
           </Route>
           <Route exact path= "/">
-          <Home/>
+          <QualityTeams/>
           </Route>
           <Route  path= "/home">
           <Home/>
